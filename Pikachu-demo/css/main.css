@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after{
+    box-sizing: border-box;
+}
+*::before{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.code-wrapper{
+    flex: 1;
+    height: 50%;
+    padding: 10px;
+}
+.preview-wrapper{
+    flex: 1;
+}
+#code{
+    overflow: hidden;
+    height: 100%;
+}
+.preview{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.wrapper{
+    width: 100%;
+    height: 165px;
+    position: relative;
+   
+}
+.wrapper > :not(:last-child){
+    z-index: 1;
+}
+
