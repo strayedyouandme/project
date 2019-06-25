@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.layout{
+max-width:900px;
+margin: 0 auto;
+
+}
+#page{
+display: flex;
+flex-wrap:wrap;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background:red ;
+}
+aside{
+width: 100px;
+background: blue;
+}
+main{
+background: black;
+flex: 1;
+min-height: calc(100vh - 100px)
+}
+
+@media (max-width: 768px) {
+    aside{
+        width: 100%;
+    }
+}
