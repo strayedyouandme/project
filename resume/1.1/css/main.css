@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: #efefef;
     font: 14px/1.5 Arial;
     color: #666;
 }
@@ -33,6 +34,7 @@ header>p{
     margin: 0;
 }
 aside{
+background: white;
 width: 240px;
 border-right: 1px solid #ccc;
 position: relative;
@@ -100,6 +102,7 @@ section h2{
 }
 
 main{
+    background: white;
 flex: 1;
 min-height: calc(100vh - 100px)
 }
