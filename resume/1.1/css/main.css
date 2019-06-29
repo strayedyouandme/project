@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     background: #efefef;
@@ -114,8 +115,22 @@ main section .item img{
     border-radius: 5px;
 }
 
-/* @media (max-width: 768px) {
-    aside{
-        width: 100%;
+@media (max-width: 768px) {
+    header {
+      padding-top: 20px;
+      padding-bottom: 90px;
     }
-} */
+    aside {
+      width: 100%;
+      padding-top: 0px;
+    }
+    aside .avatar img {
+      width: 100px;
+      height: 100px;
+    }
+    main{
+        width: 100%;
+        padding-top: 0px;
+    }
+   
+  }
